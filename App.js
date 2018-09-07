@@ -1,3 +1,20 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @tsaqifsetyo Sign out
+0
+0 0 agfidpraz/image-RN
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
+image-RN/App.js
+0f06743  3 hours ago
+@agfidpraz agfidpraz Activity
+     
+71 lines (65 sloc)  1.34 KB
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
@@ -27,11 +44,9 @@ export default class App extends Component<Props> {
   render() {
     return (
   <View style={styles.container} >
-   <Judul judul ="BIODATA"/>
+  <Judul judul ="BIODATA"/>
   <Judul judul ="LOGIN"/>
   <Judul judul ="FORM"/>
-    <Text style={styles.welcome}>
-  <Judul/>
     <Text style={styles.welcome}>
      Nama = Tsaqif Setyo Abdulhaqqi
     </Text>
@@ -43,7 +58,7 @@ export default class App extends Component<Props> {
     </Text>
     <Image
       style={{width: 250, height: 250}}
-      source={require('./foto.jpg')}
+      source={require('./aa.jpg')}
       />
   </View>
 	
