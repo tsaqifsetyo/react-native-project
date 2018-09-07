@@ -4,7 +4,7 @@ import {Text} from 'react-native';
 export default class Judul extends Component {
 	render(){
 		return(
-			<Text style={stylee.judul}>BIODATA</Text>
+			<Text style={stylee.judul}>{this.props.judul}</Text>
 			)
 }
 
@@ -12,7 +12,7 @@ export default class Judul extends Component {
 const stylee = {
 	judul:{
 		color:'#F00',
-		fontSize: 50,
+		fontSize: 50,	
 		fontWeight:'bold',	
 		backgroundColor: '#0F0',
 

@@ -27,9 +27,13 @@ export default class App extends Component<Props> {
   render() {
     return (
   <View style={styles.container} >
+   <Judul judul ="BIODATA"/>
+  <Judul judul ="LOGIN"/>
+  <Judul judul ="FORM"/>
+    <Text style={styles.welcome}>
   <Judul/>
     <Text style={styles.welcome}>
-     Nama = Tsaqif Setyo Abdulhaqqi 
+     Nama = Tsaqif Setyo Abdulhaqqi
     </Text>
     <Text style={styles.welcome}>
      Kelas = XI RPL 1 
