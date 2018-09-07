@@ -1,26 +1,3 @@
-Skip to content
- 
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- @tsaqifsetyo Sign out
-0
-0 0 agfidpraz/image-RN
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
-image-RN/App.js
-0f06743  3 hours ago
-@agfidpraz agfidpraz Activity
-     
-71 lines (65 sloc)  1.34 KB
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
-
 import React, { Component } from 'react';
 import Judul from './Components/Judul';
 import {
