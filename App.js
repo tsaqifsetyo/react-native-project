@@ -1,3 +1,9 @@
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ * @flow
+ */
+
 import React, { Component } from 'react';
 import Judul from './Components/Judul';
 import {
@@ -5,7 +11,6 @@ import {
   StyleSheet,
   Text,
   View,
-  StatusBar,
   Image
 } from 'react-native';
 
@@ -20,25 +25,23 @@ type Props = {};
 export default class App extends Component<Props> {
   render() {
     return (
-  <View style={styles.container} >
-  <Judul judul ="BIODATA"/>
-  <Judul judul ="LOGIN"/>
-  <Judul judul ="FORM"/>
-    <Text style={styles.welcome}>
-     Nama = Tsaqif Setyo Abdulhaqqi
-    </Text>
-    <Text style={styles.welcome}>
-     Kelas = XI RPL 1 
-    </Text>
-    <Text style={styles.welcome}>
-     No Absen = 37
-    </Text>
-    <Image
-      style={{width: 250, height: 250}}
-      source={require('./aa.jpg')}
-      />
-  </View>
-	
+      <View style={styles.container}>
+      <Judul judul="BIODATA"/>
+      <Judul judul="LOGIN"/>
+      <Judul judul="FORM"/>
+      <Image
+      	style={{width: 200, height: 250}}
+      	source={require('./foto.png')} />
+        <Text style={styles.welcome}>
+          Nama : Tsaqif Setyo Abdulhaqqi
+        </Text>
+        <Text style={styles.instructions}>
+          Kelas : XI RPL 1
+        </Text>
+        <Text style={styles.instructions}>
+          No Absen : 37
+        </Text>
+      </View>
     );
   }
 }
@@ -48,13 +51,12 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'pink',
+    backgroundColor: '#D4D4',
   },
   welcome: {
-    fontSize: 18,
-    textAlign: 'left',
-	color: 'purple',
-    margin: 1,
+    fontSize: 20,
+    textAlign: 'center',
+    margin: 10,
   },
   instructions: {
     textAlign: 'center',
