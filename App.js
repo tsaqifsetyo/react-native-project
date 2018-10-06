@@ -6,6 +6,8 @@
 
 import React, { Component } from 'react';
 import Judul from './Components/Judul';
+import Login from './components/Login';
+import Footer from './components/footer';
 import {
   Platform,
   StyleSheet,

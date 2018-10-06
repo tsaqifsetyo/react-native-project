@@ -10,11 +10,11 @@ export default class Login extends Component {
     	source={require('./facebook.png')} />
     	<TextInput
     	style = {styles.inputBox}
-    	placeholder="Phone or Email"
+    	placeholder="Ponsel atau Email"
     	/>
     	<TextInput
     	style = {styles.inputBox}
-    	placeholder="Password"
+    	placeholder="Kata Sandi"
     	secureTextEntry={true}
     	/>
     	<TouchableOpacity style={styles.button}>
@@ -22,7 +22,7 @@ export default class Login extends Component {
     	</TouchableOpacity>
 		
     	<TouchableOpacity>
-    	<Text>Forgot Password?</Text>
+    	<Text>Lupas Password?</Text>
     	</TouchableOpacity>
     	</View>    	
     );
